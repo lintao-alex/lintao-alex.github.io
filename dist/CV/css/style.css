@@ -1,0 +1,86 @@
+body {
+  margin: 10px auto;
+  width: 900px;
+}
+li {
+  font-size: 20px;
+}
+.head {
+  height: 150px;
+  background-color: #523f3a;
+  margin: 30px 0 50px;
+}
+.avatar {
+  transform: translateY(-20px);
+  margin: 0 50px 0 8px;
+  vertical-align: top;
+}
+
+.head section {
+  display: inline-block;
+  color: white;
+}
+
+.contact-info >span {
+  margin-right: 10px;
+}
+.contact-info >span::before {
+  margin-right: 8px;
+}
+.birth::before{
+  content: url("../assets/icon/calendar.png");
+}
+.phone::before{
+  content: url("../assets/icon/phone.png");
+}
+.mail::before{
+  content: url("../assets/icon/mail.png");
+}
+
+
+article {
+  color: #523f3a;
+  margin: 10px;
+}
+article >div {
+  margin-top: 50px;
+}
+article >div >h1::before {
+  display: inline-block;
+  margin-right: 16px;
+  background-color: #523f3a;
+  border-radius: 20px;
+  padding: 2px;
+}
+.education::before {
+  content: url("../assets/icon/education.png");
+}
+.skill::before {
+  content: url("../assets/icon/skill.png");
+}
+.work::before {
+  content: url("../assets/icon/work.png");
+}
+
+.educ-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin: 10px 20px;
+}
+
+.experience {
+  margin-bottom: 80px;
+}
+.experience ul, .experience ol {
+  padding-inline-start: 20px
+}
+.experience ol {
+  margin-bottom: 20px;
+}
+.simple {
+  display: flex;
+  justify-content: space-between;
+}
