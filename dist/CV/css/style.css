@@ -84,3 +84,10 @@ article >div >h1::before {
   display: flex;
   justify-content: space-between;
 }
+
+.experience-list {
+  width: 100%;
+}
+.experience-list td {
+  width: calc(100% / 3);
+}
